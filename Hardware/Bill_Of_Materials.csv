@@ -1,0 +1,35 @@
+﻿No,Reference,Qty,Value,Footprint,Component
+1,"C1, C3",2,1uF,0603,"Ceramic capacitor, 10V+"
+2,"C2, C4, C5",3,100nF,0603,"Ceramic capacitor, 10V+"
+3,C6,1,100nF,0603,"Ceramic capacitor, 10V+"
+4,C7,1,1uF,0603,"Ceramic capacitor, 10V+"
+5,CBOOT1,1,0.1uF,0603,"Ceramic capacitor, 10V+"
+6,Cin1,1,10uF,0805,"Ceramic capacitor, 25V+"
+7,Comm1,1,LED,0603,Blue SMD LED
+8,Cout1,1,22uF,1206,"Ceramic capacitor, 10V+"
+9,D1,1,SMAJ15A,SMA,"15V TVS diode, 400W peak"
+10,D4,1,SM712,SOT-23,RS485/USB TVS diode array
+11,"FB1, FB2",2,Ferrite Bead,0603,"~600 Ohm @100MHz, 500mA"
+12,J1,1,2-pin terminal,PTSM 2.5mm,"Phoenix PTSM-0,5-2-2.5-V-THR"
+13,J3,1,3-pin terminal,MSTB 5mm,"Phoenix MSTBVA 2,5/3-G"
+14,J4,1,USB-C 16P,USB4105,"GCT USB-C 2.0 receptacle, horizontal"
+15,J5,1,TC2030,Tag-Connect,"TC2030-IDC-NL (no-leg, not soldered)"
+16,JP1,1,Jumper 2-pin,2.54mm header,RS485 termination enable
+17,L1,1,10uH,SRN6045,"Bourns shielded power inductor, 2A+"
+18,"Power1, Status1",2,LED,0603,Green + Amber SMD LEDs
+19,Q1,1,AO3401A,SOT-23,"P-ch MOSFET, -30V, -4A"
+20,"R1, R3",2,10kOhm,0603,1% resistor
+21,R2,1,100kOhm,0603,1% resistor (see warning in Section 4.4)
+22,"R4, R5",2,680Ohm,0603,1% resistor
+23,R6,1,120Ohm,0603,"1% resistor, RS485 termination"
+24,R7,1,56kOhm,0603,"1% resistor, bus bias"
+25,"R8, R9",2,5.1kOhm,0603,"1% resistor, USB-C CC pull-down"
+26,"R10, R11",2,330Ohm,0603,LED current limiting
+27,"R12, R14, R15",3,10kOhm,0603,"1% resistor, pull-ups"
+28,R13,1,1kOhm,0603,LED current limiting
+29,SW3,1,DIP-3 switch,SMD slide,"3-position DIP switch, node address"
+30,U1,1,TPS562202,SOT-563,TI 2A sync buck converter
+31,U2,1,STM32G431CBT6,LQFP-48,"ST Cortex-M4 MCU, 128KB Flash"
+32,U3,1,AP2112K-3.3,SOT-23-5,Diodes Inc. 600mA LDO
+33,U4,1,AS5047D,TSSOP-14,ams 14-bit magnetic encoder
+34,U5,1,THVD1450D,SOIC-8,TI 20Mbps RS485 transceiver

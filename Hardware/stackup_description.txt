@@ -1,0 +1,26 @@
+Industrial Encoder Node PCB Stack-up
+
+Board Type:
+- 4-Layer FR4 PCB
+
+Board Thickness:
+- 1.6 mm
+
+Copper Thickness:
+- 1 oz (35 µm) on all copper layers
+
+Layer Stack-up:
+
+Layer 1 (Top Layer)    : Signal, Power Routing, Components
+Layer 2 (Inner Layer 1): Ground Plane (GND)
+Layer 3 (Inner Layer 2): Power Plane (3.3 V / 5 V / 12 V)
+Layer 4 (Bottom Layer) : Signal Routing
+
+PCB Design Software:
+- KiCad 9.0.8
+
+Design Notes:
+- Functional component placement by subsystem.
+- Dedicated internal ground plane for improved signal integrity.
+- Internal power distribution layer for stable power delivery.
+- Four-layer stack-up selected to improve EMI performance and routing efficiency.
